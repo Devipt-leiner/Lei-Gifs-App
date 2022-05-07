@@ -1,0 +1,9 @@
+<div class="container">
+  <div *ngFor="let gif of results" class="card" style="width: 18rem;">
+    <img [src]="gif.images.downsized_medium.url" class="card-img-top" alt="gif">
+    <div class="card-body">
+      <h5 class="card-title">{{ gif.title }}</h5>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
