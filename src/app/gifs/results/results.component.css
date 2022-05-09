@@ -1,11 +1,15 @@
 .container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+}
+
+#card {
+  transition: .5s;
 }
 
 #card:hover {
   box-shadow: none !important;
   cursor: pointer;
-  transition: 0.5s
 }
